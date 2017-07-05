@@ -1,0 +1,12 @@
+{
+    "database":
+    {
+        "driver":"mysql",
+        "host":"localhost",
+        "username":"root",
+        "password":"",
+        "databaseName":"shop",
+        "tablePerfix":"tbl_",
+        "charCode":"utf8"
+    }
+}
