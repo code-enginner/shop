@@ -1,0 +1,278 @@
+@mixin box_shadow($bottom:5px, $right: 5px, $scattering: 13px, $color:rgba(0, 0, 0, 0.6))
+{
+    -webkit-box-shadow: $bottom $right $scattering $color;
+    -moz-box-shadow: $bottom $right $scattering $color;
+    -ms-box-shadow: $bottom $right $scattering $color;
+    -o-box-shadow: $bottom $right $scattering $color;
+    box-shadow: $bottom $right $scattering $color;
+}
+@mixin timer($mode:all, $duration:0.3s)
+{
+    -webkit-transition: $mode $duration;
+    -moz-transition: $mode $duration;
+    -ms-transition: $mode $duration;
+    -o-transition: $mode $duration;
+    transition: $mode $duration;
+}
+/****************************/
+.clear_fix
+{
+    &:after
+    {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.unSelect
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.new
+{
+    font-size: 11px;
+    color: #c2185b;
+}
+
+.hint_2
+{
+    font-family: IRANSans_medium;
+    font-size: 11px;
+    display: block;
+    color: #c2185b;
+}
+
+.fa-asterisk
+{
+    padding: 0 5px;
+    color: #d50000;
+    font-style: normal;
+    font-size: 7px;
+}
+
+body
+{
+    //font-family: "IranianSans";
+    font-family: IRANSans_regular;
+    //font-family: IRANSans_medium;
+    //font-family: IRANSans_bold;
+    overflow-x: hidden;
+    font-weight: normal;
+    font-size: 13px;
+    color: #696763;
+    background-image: url(../pattern.png);
+}
+
+pre
+{
+    font-family: IRANSans_medium;
+    background-color: transparent;
+    overflow: visible;
+}
+
+i
+{
+    font-style: normal;
+}
+
+label
+{
+    font-family: IRANSans_medium;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 7px;
+}
+
+input[type=text], input[type=email]
+{
+    display: block;
+    min-width: 20%;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    line-height: 25px;
+    padding: 0 5px;
+    font-size: 12px;
+
+    @include timer();
+    &:focus
+    {
+        border-color: rgba(97, 97, 97, 0.8);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(97, 97, 97, 0.6);
+        outline: 0 none;
+    }
+}
+
+input[type=submit], input[type=reset]
+{
+    font-family: IRANSans_medium;
+    display: inline-block;
+    width: 8em;
+    line-height: 1.9em;
+    border: 1px solid #bdbdbd;
+
+    @include timer();
+    &:focus
+    {
+        border-color: rgba(97, 97, 97, 0.8);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(97, 97, 97, 0.6);
+        outline: 0 none;
+    }
+}
+span.tanks
+{
+    font-family: IRANSans_medium;
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    padding: 20px;
+    color: #7cb342;
+    border: 1px solid #8bc34a;
+    background-color: #f1f8e9;
+}
+
+#tracking_code
+{
+    color: #3f51b5;
+    font-family: IRANSans_bold;
+    font-size: 16px;
+    display: block;
+    margin: 30px 1px;
+}
+
+#hint_download
+{
+    font-family: IRANSans_medium;
+    font-weight: normal;
+    font-size: 12px;
+    color: #d81b60;
+}
+
+table
+{
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bolder;
+    tr
+    {
+        &:nth-child(even)
+        {
+            background-color: #e0e0e0;
+            color: #616161;
+        }
+        text-align: center;
+        th
+        {
+            text-align: center;
+            padding: 1em 0;
+            font-weight: bold;
+            &:nth-child(1)
+            {
+                width: 4em;
+            }
+            &:nth-child(2)
+            {
+                width: 10em;
+            }
+            &:nth-child(3)
+            {
+                width: 10em;
+            }
+            &:nth-child(4)
+            {
+                width: 10em;
+            }
+            //&:nth-child(5)
+            //{
+            //    width: 8em;
+            //}
+            //&:nth-child(6)
+            //{
+            //    width: 8em;
+            //}
+
+        }
+        td
+        {
+            text-align: center;
+            padding: 1em 0;
+            a
+            {
+                color: #424242;
+                text-decoration: none;
+                display: block;
+                padding: 7px;
+                @include timer();
+                &:hover
+                {
+                    //color: #ff5722;
+                    background-color: #bdbdbd;
+                    text-decoration: none;
+                }
+                &:first-child
+                {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+
+#warning
+{
+    > i
+    {
+        font-family: IRANSans_bold;
+        display: inline-block;
+        padding: 0 7px;
+        margin: 20px 0;
+    }
+    color: #d81b60;
+}
+
+
+div.description
+{
+    padding: 7px;
+    line-height: 2em;
+    color: #3f51b5;
+    background-color: #fff;
+    margin-bottom: 2em;
+    @include box_shadow(5px, 5px, 15px, rgba(0, 0, 0, 0.7));
+}
+
+#offer
+{
+    font-family: IRANSans_bold;
+    display: block;
+    margin: 7px 0;
+    font-size: 13px;
+}
+
+span.ways
+{
+    display: block;
+    margin: 7px 0;
+    font-size: 12px;
+    font-family: IRANSans_medium;
+}
+
+#u_n
+{
+    font-family: IRANSans_medium !important;
+    padding: 0 4px !important;
+}
+
+i.number
+{
+    font-family: IRANSans_bold;
+    margin-left: 3px;
+    font-size: 13px;
+}

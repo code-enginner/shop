@@ -1,0 +1,189 @@
+@mixin box_shadow($bottom:5px, $right: 5px, $scattering: 13px, $color:rgba(0, 0, 0, 0.6))
+{
+    -webkit-box-shadow: $bottom $right $scattering $color;
+    -moz-box-shadow: $bottom $right $scattering $color;
+    -ms-box-shadow: $bottom $right $scattering $color;
+    -o-box-shadow: $bottom $right $scattering $color;
+    box-shadow: $bottom $right $scattering $color;
+}
+@mixin timer($mode:all, $duration:0.3s)
+{
+    -webkit-transition: $mode $duration;
+    -moz-transition: $mode $duration;
+    -ms-transition: $mode $duration;
+    -o-transition: $mode $duration;
+    transition: $mode $duration;
+}
+/****************************/
+.clear_fix
+{
+    &:after
+    {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.unSelect
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.new
+{
+    font-size: 11px;
+    color: #c2185b;
+}
+
+.hint_2
+{
+    font-family: IRANSans_medium;
+    font-size: 11px;
+    color: #c2185b;
+}
+
+.fa-asterisk
+{
+    padding: 0 5px;
+    color: #d50000;
+    font-style: normal;
+    font-size: 7px;
+}
+
+body
+{
+    //font-family: "IranianSans";
+    font-family: IRANSans_regular;
+    //font-family: IRANSans_medium;
+    //font-family: IRANSans_bold;
+    overflow-x: hidden;
+    font-weight: normal;
+    font-size: 13px;
+    color: #696763;
+    background-image: url(../pattern.png);
+}
+
+pre
+{
+    font-family: IRANSans_medium;
+    background-color: transparent;
+    overflow: visible;
+}
+
+i
+{
+    font-style: normal;
+}
+
+label
+{
+    font-family: IRANSans_medium;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 7px;
+}
+
+input[type=text], input[type=email]
+{
+    display: block;
+    min-width: 20%;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    line-height: 25px;
+    padding: 0 5px;
+    font-size: 12px;
+
+    @include timer();
+    &:focus
+    {
+        border-color: rgba(97, 97, 97, 0.8);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(97, 97, 97, 0.6);
+        outline: 0 none;
+    }
+}
+
+select
+{
+    font-size: 12px;
+    min-width: 20%;
+    padding: 2.5px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+
+    @include timer();
+    &:focus
+    {
+        border-color: rgba(97, 97, 97, 0.8);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(97, 97, 97, 0.6);
+        outline: 0 none;
+    }
+}
+
+textarea
+{
+    display: block;
+    margin-bottom: 1em;
+    resize: vertical;
+    word-spacing: 1px;
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+
+    @include timer();
+    &:focus
+    {
+        border-color: rgba(97, 97, 97, 0.8);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(97, 97, 97, 0.6);
+        outline: 0 none;
+    }
+}
+
+input[type=submit], input[type=reset]
+{
+    font-family: IRANSans_medium;
+    display: inline-block;
+    width: 8em;
+    line-height: 1.9em;
+    border: 1px solid #bdbdbd;
+
+    @include timer();
+    &:focus
+    {
+        border-color: rgba(97, 97, 97, 0.8);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(97, 97, 97, 0.6);
+        outline: 0 none;
+    }
+}
+
+div.form
+{
+    padding: 0 20px 20px 2px ;
+    div.pay_hint
+    {
+        padding: 1.5em 10px;
+        border: 1px solid #bdbdbd;
+        background-color: #fff;
+        width: 80%;
+        margin: 1.5em auto 3.5em auto;
+        @include box_shadow();
+
+        h5
+        {
+            font-family: IRANSans_bold;
+            color: #d81b60;
+            display: block;
+            margin-bottom: 15px;
+        }
+        p
+        {
+            color: #3f51b5;
+            line-height: 25px;
+        }
+    }
+
+}

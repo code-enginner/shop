@@ -1,0 +1,61 @@
+/*********************/
+.clear_fix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+body {
+  font-family: IRANSans_medium;
+  background-color: #F5F5F5;
+}
+
+pre {
+  font-family: IRANSans_medium;
+  background-color: transparent;
+  overflow: visible;
+}
+
+label {
+  display: block;
+  color: #757575;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+i.forced {
+  padding: 0 5px;
+  color: #d50000;
+  font-style: normal;
+}
+
+input[type=submit], input[type=reset] {
+  cursor: pointer;
+  min-width: 7em;
+  padding: 3px 0;
+  color: #616161;
+  font-weight: bold;
+  border: 1px solid #616161;
+  font-size: 12px;
+}
+
+input[type=text], input[type=password] {
+  margin-bottom: 1em;
+  border: 1px solid #757575;
+  padding: 7px;
+  min-width: 15em;
+  font-size: 12px;
+  font-weight: bold;
+  color: #757575;
+}
+
+#header {
+  display: block;
+  background-color: #616161;
+  color: #fafafa;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2em;
+}

@@ -1,0 +1,85 @@
+/*************************/
+body {
+  font-family: IRANSans_medium;
+  background-color: #F5F5F5;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+#all {
+  margin-top: 2em;
+}
+
+#all > table {
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+#all > table tr {
+  text-align: center;
+}
+
+#all > table tr:nth-child(even) {
+  background-color: #e0e0e0;
+  color: #616161;
+}
+
+#all > table tr th {
+  text-align: center;
+  padding: 1em 0;
+}
+
+#all > table tr th:nth-child(1) {
+  width: 4em;
+}
+
+#all > table tr th:nth-child(2) {
+  width: 10em;
+}
+
+#all > table tr th:nth-child(3) {
+  width: 10em;
+}
+
+#all > table tr th:nth-child(4) {
+  width: 10em;
+}
+
+#all > table tr th:nth-child(5) {
+  width: 8em;
+}
+
+#all > table tr th:nth-child(6) {
+  width: 8em;
+}
+
+#all > table tr > td {
+  text-align: center;
+  padding: 1em 0;
+}
+
+#all > table tr > td a {
+  color: #424242;
+  text-decoration: none;
+  display: block;
+  padding: 7px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#all > table tr > td a:hover {
+  color: #ff5722;
+  background-color: #bdbdbd;
+}
+
+#all > table tr > td a:first-child {
+  margin-left: 5px;
+}

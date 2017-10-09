@@ -1,0 +1,62 @@
+@mixin box_shadow($bottom:5px, $right: 5px, $scattering: 13px, $color:rgba(0, 0, 0, 0.6))
+{
+    -webkit-box-shadow: $bottom $right $scattering $color;
+    -moz-box-shadow: $bottom $right $scattering $color;
+    -ms-box-shadow: $bottom $right $scattering $color;
+    -o-box-shadow: $bottom $right $scattering $color;
+    box-shadow: $bottom $right $scattering $color;
+}
+@mixin timer($mode:all, $duration:0.3s)
+{
+    -webkit-transition: $mode $duration;
+    -moz-transition: $mode $duration;
+    -ms-transition: $mode $duration;
+    -o-transition: $mode $duration;
+    transition: $mode $duration;
+}
+/***************/
+body
+{
+    //font-family: IranianSans;
+    font-family: IRANSans_medium;
+    //font-family: IRANSans_bold;
+    background-color: #F5F5F5;
+    direction: rtl;
+}
+
+pre
+{
+    font-family: IRANSans_medium;
+    background-color: transparent;
+    overflow: visible;
+}
+
+label
+{
+    display: block;
+    color: #757575;
+    font-weight: bold;
+}
+input[type=submit], input[type=reset]
+{
+    cursor: pointer;
+    min-width: 7em;
+    padding: 3px 0;
+}
+input[type=text], input[type=password]
+{
+    margin-bottom: 1em;
+    border: 1px solid #757575;
+    padding: 7px;
+    min-width: 15em;
+}
+input[type=submit], input[type=reset]
+{
+    color: #616161;
+    font-weight: bold;
+    border: 1px solid #616161;
+}
+#ckEditor
+{
+    display: none;
+}

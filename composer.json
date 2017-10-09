@@ -1,0 +1,15 @@
+{
+    "require":
+    {
+
+    },
+
+    "autoload":
+    {
+        "psr-4":
+        {
+            "functions\\": "functions/",
+            "configReader\\": "configReader/"
+        }
+    }
+}

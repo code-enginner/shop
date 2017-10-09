@@ -1,0 +1,217 @@
+@mixin box_shadow($bottom:5px, $right: 5px, $scattering: 13px, $color:rgba(0, 0, 0, 0.6))
+{
+    -webkit-box-shadow: $bottom $right $scattering $color;
+    -moz-box-shadow: $bottom $right $scattering $color;
+    -ms-box-shadow: $bottom $right $scattering $color;
+    -o-box-shadow: $bottom $right $scattering $color;
+    box-shadow: $bottom $right $scattering $color;
+}
+@mixin timer($mode:all, $duration:0.3s)
+{
+    -webkit-transition: $mode $duration;
+    -moz-transition: $mode $duration;
+    -ms-transition: $mode $duration;
+    -o-transition: $mode $duration;
+    transition: $mode $duration;
+}
+/*********************/
+
+.clear_fix
+{
+    &:after
+    {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.unSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+hr
+{
+    border-color: #bdbdbd;
+}
+
+.fa-asterisk
+{
+    padding: 0 5px;
+    color: #d50000;
+    font-style: normal;
+    font-size: 7px;
+}
+
+.time
+{
+    font-family: IRANSans_medium;
+    padding-top: 13px;
+    display: block;
+    float: left;
+}
+
+*
+{
+    border-radius: 0;
+}
+
+body
+{
+    //font-family: "IranianSans";
+    font-size: 13px;
+    //font-family: IranianSans;
+    //font-family: IRANSans_regular;
+    font-family: IRANSans_medium;
+    //font-family: IRANSans_bold;
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    background-color: #F5F5F5;
+}
+
+i
+{
+    font-style: normal;
+}
+
+label
+{
+    font-family: IRANSans_medium;
+    display: block;
+    font-weight: normal;
+    margin-bottom: 7px;
+}
+
+#insert_header
+{
+    display: block;
+    padding: 1em 7px;
+    margin-bottom: 15px;
+    background-color: #3f51b5;
+    color: #fff;
+}
+
+input[type=email], input[type=text], input[type=password]
+{
+    display: block;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-size: 12px;
+    width: 20em;
+    padding: 0 5px;
+    border: 1px solid #e0e0e0;
+
+    @include timer();
+    &:focus
+    {
+        border-color: rgba(97, 97, 97, 0.8);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(97, 97, 97, 0.6);
+        outline: 0 none;
+    }
+}
+
+input[type=submit], input[type=reset]
+{
+    font-family: IRANSans_medium;
+    font-size: 13px;
+    border: 1px solid #bdbdbd;
+    width: 10em;
+    line-height: 2em;
+    margin-bottom: 2em;
+
+    @include timer();
+    &:focus
+    {
+        border-color: rgba(97, 97, 97, 0.8);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(97, 97, 97, 0.6);
+        outline: 0 none;
+    }
+}
+input[type=submit]
+{
+    margin-left: 5px;
+}
+
+table
+{
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    tr
+    {
+        &:nth-child(even)
+        {
+            background-color: #e0e0e0;
+            color: #616161;
+        }
+        text-align: center;
+        th
+        {
+            text-align: center;
+            padding: 1em 0;
+
+            //&:nth-child(1)
+            //{
+            //    width: 1em;
+            //}
+            //&:nth-child(2)
+            //{
+            //    width: 2em;
+            //}
+            //&:nth-child(3)
+            //{
+            //    width: 5em;
+            //}
+            //&:nth-child(4)
+            //{
+            //    width: 2em;
+            //}
+            //&:nth-child(5)
+            //{
+            //    width: 1em;
+            //}
+            //&:nth-child(6)
+            //{
+            //    width: 8em;
+            //}
+            //&:nth-child(7)
+            //{
+            //    width: 6em;
+            //}
+            //&:nth-child(8)
+            //{
+            //    width: 5em;
+            //}
+
+        }
+        td
+        {
+            text-align: center;
+            padding: 1em 0;
+            font-size: 11px;
+            a
+            {
+                color: #424242;
+                text-decoration: none;
+                display: block;
+                padding: 7px;
+                @include timer();
+                &:hover
+                {
+                    //color: #ff5722;
+                    background-color: #bdbdbd;
+                    text-decoration: none;
+                }
+                &:first-child
+                {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

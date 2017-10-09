@@ -1,0 +1,41 @@
+/***************/
+body {
+  font-family: IRANSans_medium;
+  background-color: #F5F5F5;
+  direction: rtl;
+}
+
+pre {
+  font-family: IRANSans_medium;
+  background-color: transparent;
+  overflow: visible;
+}
+
+label {
+  display: block;
+  color: #757575;
+  font-weight: bold;
+}
+
+input[type=submit], input[type=reset] {
+  cursor: pointer;
+  min-width: 7em;
+  padding: 3px 0;
+}
+
+input[type=text], input[type=password] {
+  margin-bottom: 1em;
+  border: 1px solid #757575;
+  padding: 7px;
+  min-width: 15em;
+}
+
+input[type=submit], input[type=reset] {
+  color: #616161;
+  font-weight: bold;
+  border: 1px solid #616161;
+}
+
+#ckEditor {
+  display: none;
+}

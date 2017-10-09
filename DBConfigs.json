@@ -3,10 +3,10 @@
     {
         "driver":"mysql",
         "host":"localhost",
+        "databaseName":"shop",
         "username":"root",
         "password":"",
-        "databaseName":"shop",
-        "tablePerfix":"tbl_",
-        "charCode":"utf8"
+        "tablePerfix":"",
+        "charSet":"utf8"
     }
 }

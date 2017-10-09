@@ -1,0 +1,75 @@
+/************************/
+body {
+  font-family: IRANSans_regular;
+  background-color: #F5F5F5;
+}
+
+pre {
+  font-family: IRANSans_medium;
+  background-color: transparent;
+  overflow: visible;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+table tr {
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #e0e0e0;
+  color: #616161;
+}
+
+table tr th {
+  text-align: center;
+  padding: 1em 0;
+  font-weight: bold;
+}
+
+table tr th:nth-child(1) {
+  width: 4em;
+}
+
+table tr th:nth-child(2) {
+  width: 10em;
+}
+
+table tr th:nth-child(3) {
+  width: 10em;
+}
+
+table tr th:nth-child(4) {
+  width: 10em;
+}
+
+table tr td {
+  text-align: center;
+  padding: 1em 0;
+}
+
+table tr td a {
+  color: #424242;
+  text-decoration: none;
+  display: block;
+  padding: 7px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+table tr td a:hover {
+  background-color: #bdbdbd;
+  text-decoration: none;
+}
+
+table tr td a:first-child {
+  margin-left: 5px;
+}

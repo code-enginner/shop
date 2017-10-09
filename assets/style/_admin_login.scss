@@ -1,0 +1,116 @@
+@mixin box_shadow($bottom:5px, $right: 5px, $scattering: 13px, $color:rgba(0, 0, 0, 0.6))
+{
+    -webkit-box-shadow: $bottom $right $scattering $color;
+    -moz-box-shadow: $bottom $right $scattering $color;
+    -ms-box-shadow: $bottom $right $scattering $color;
+    -o-box-shadow: $bottom $right $scattering $color;
+    box-shadow: $bottom $right $scattering $color;
+}
+
+/************/
+.fa
+{
+    padding: 0 15px;
+}
+.clear-fix
+{
+    clear: both;
+}
+.unSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.hint
+{
+    text-align: center;
+    margin-bottom: 1px;
+    position: relative;
+    > p
+    {
+        color: #f44336;
+        font-weight: bold;
+        //font-size: 15px;
+        &:nth-child(1)
+        {
+            margin-top: 5px;
+        }
+    }
+}
+
+body
+{
+    background-color: #F5F5F5;
+    //font-family: IranianSans;
+    //font-family: IRANSans_bold;
+    font-family: IRANSans_medium;
+    direction: rtl;
+}
+
+label
+{
+    display: block;
+    color: #757575;
+    font-weight: bold;
+}
+
+
+input[type=submit], input[type=reset]
+{
+    cursor: pointer;
+    min-width: 7em;
+    padding: 3px 0;
+}
+input[type=text], input[type=password]
+{
+    margin-bottom: 1em;
+    border: 1px solid #757575;
+    padding: 7px;
+    min-width: 15em;
+}
+input[type=submit], input[type=reset]
+{
+    color: #616161;
+    font-weight: bold;
+    border: 1px solid #616161;
+}
+
+
+#login_form
+{
+    //border: 1px solid #01579b;
+    margin: 5em auto 2em auto;
+    //width: 50%;
+    float: none;
+    background-color: #fff;
+    padding: 0;
+    @include box_shadow();
+}
+
+#admin_content
+{
+
+}
+
+#admin_login_content
+{
+    padding: 0 20px 20px 20px;
+}
+
+#admin_login_header
+{
+    display: block;
+    background-color: #01579b;
+    text-align: center;
+    color: #F5F5F5;
+    margin: 0 0 15px 0;
+    padding: 15px;
+    cursor: default;
+}
+#captcha_content
+{
+    direction: ltr;
+}

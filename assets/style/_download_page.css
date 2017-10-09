@@ -1,0 +1,242 @@
+/****************************/
+.clear_fix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.unSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.new {
+  font-size: 11px;
+  color: #c2185b;
+}
+
+.hint_2 {
+  font-family: IRANSans_medium;
+  font-size: 11px;
+  display: block;
+  color: #c2185b;
+}
+
+.fa-asterisk {
+  padding: 0 5px;
+  color: #d50000;
+  font-style: normal;
+  font-size: 7px;
+}
+
+body {
+  font-family: IRANSans_regular;
+  overflow-x: hidden;
+  font-weight: normal;
+  font-size: 13px;
+  color: #696763;
+  background-image: url(../pattern.png);
+}
+
+pre {
+  font-family: IRANSans_medium;
+  background-color: transparent;
+  overflow: visible;
+}
+
+i {
+  font-style: normal;
+}
+
+label {
+  font-family: IRANSans_medium;
+  font-weight: normal;
+  display: block;
+  margin-bottom: 7px;
+}
+
+input[type=text], input[type=email] {
+  display: block;
+  min-width: 20%;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+  line-height: 25px;
+  padding: 0 5px;
+  font-size: 12px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+  border-color: rgba(97, 97, 97, 0.8);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(97, 97, 97, 0.6);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(97, 97, 97, 0.6);
+  outline: 0 none;
+}
+
+input[type=submit], input[type=reset] {
+  font-family: IRANSans_medium;
+  display: inline-block;
+  width: 8em;
+  line-height: 1.9em;
+  border: 1px solid #bdbdbd;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+input[type=submit]:focus, input[type=reset]:focus {
+  border-color: rgba(97, 97, 97, 0.8);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(97, 97, 97, 0.6);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(97, 97, 97, 0.6);
+  outline: 0 none;
+}
+
+span.tanks {
+  font-family: IRANSans_medium;
+  font-size: 16px;
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+  padding: 20px;
+  color: #7cb342;
+  border: 1px solid #8bc34a;
+  background-color: #f1f8e9;
+}
+
+#tracking_code {
+  color: #3f51b5;
+  font-family: IRANSans_bold;
+  font-size: 16px;
+  display: block;
+  margin: 30px 1px;
+}
+
+#hint_download {
+  font-family: IRANSans_medium;
+  font-weight: normal;
+  font-size: 12px;
+  color: #d81b60;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+table tr {
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #e0e0e0;
+  color: #616161;
+}
+
+table tr th {
+  text-align: center;
+  padding: 1em 0;
+  font-weight: bold;
+}
+
+table tr th:nth-child(1) {
+  width: 4em;
+}
+
+table tr th:nth-child(2) {
+  width: 10em;
+}
+
+table tr th:nth-child(3) {
+  width: 10em;
+}
+
+table tr th:nth-child(4) {
+  width: 10em;
+}
+
+table tr td {
+  text-align: center;
+  padding: 1em 0;
+}
+
+table tr td a {
+  color: #424242;
+  text-decoration: none;
+  display: block;
+  padding: 7px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+table tr td a:hover {
+  background-color: #bdbdbd;
+  text-decoration: none;
+}
+
+table tr td a:first-child {
+  margin-left: 5px;
+}
+
+#warning {
+  color: #d81b60;
+}
+
+#warning > i {
+  font-family: IRANSans_bold;
+  display: inline-block;
+  padding: 0 7px;
+  margin: 20px 0;
+}
+
+div.description {
+  padding: 7px;
+  line-height: 2em;
+  color: #3f51b5;
+  background-color: #fff;
+  margin-bottom: 2em;
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  -ms-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  -o-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+#offer {
+  font-family: IRANSans_bold;
+  display: block;
+  margin: 7px 0;
+  font-size: 13px;
+}
+
+span.ways {
+  display: block;
+  margin: 7px 0;
+  font-size: 12px;
+  font-family: IRANSans_medium;
+}
+
+#u_n {
+  font-family: IRANSans_medium !important;
+  padding: 0 4px !important;
+}
+
+i.number {
+  font-family: IRANSans_bold;
+  margin-left: 3px;
+  font-size: 13px;
+}

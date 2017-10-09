@@ -1,0 +1,163 @@
+/******************/
+.clear_fix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.unSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+i {
+  font-style: normal;
+}
+
+.fa {
+  padding: 0 5px;
+}
+
+body {
+  font-family: IRANSans_regular;
+  background-color: #F5F5F5;
+}
+
+pre {
+  font-family: IRANSans_medium;
+  background-color: transparent;
+  overflow: visible;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+}
+
+table tr {
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #e0e0e0;
+  color: #616161;
+}
+
+table tr th {
+  font-family: IRANSans_medium;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 13.5px;
+}
+
+table tr th:nth-child(1) {
+  width: 4em;
+}
+
+table tr th:nth-child(2) {
+  width: 10em;
+}
+
+table tr th:nth-child(3) {
+  width: 10em;
+}
+
+table tr th:nth-child(4) {
+  width: 10em;
+}
+
+table tr td {
+  font-family: IRANSans_medium;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 12px;
+}
+
+table tr td span.show_more_info {
+  display: block;
+  color: #4caf50;
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 7px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+table tr td span.show_more_info > i {
+  font-weight: bold;
+}
+
+table tr td div.more_info {
+  text-align: right;
+  overflow: hidden;
+  height: 0;
+  padding: 0 10px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+table tr td div.more_info span.more_info_header {
+  font-family: IRANSans_bold;
+  display: block;
+  padding-bottom: 7px;
+  color: #3f51b5;
+}
+
+table tr td div.more_info p.more_info_content {
+  font-size: 11px;
+  padding: 2px 0 2px 0;
+  word-spacing: 2px;
+}
+
+table tr td div.more_info p.more_info_content:not(:last-child) {
+  border-bottom: 1px solid #bdbdbd;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+table tr td .header_active {
+  color: #c51162 !important;
+}
+
+table tr td .header_active > i.fa-angle-down {
+  -webkit-transform: rotate(180deg) !important;
+  -moz-transform: rotate(180deg) !important;
+  -ms-transform: rotate(180deg) !important;
+  -o-transform: rotate(180deg) !important;
+  transform: rotate(180deg) !important;
+}
+
+table tr td .show {
+  height: 23.7em !important;
+}
+
+table tr td a {
+  color: #424242;
+  text-decoration: none;
+  display: block;
+  padding: 7px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+table tr td a:hover {
+  background-color: #bdbdbd;
+  text-decoration: none;
+}
+
+table tr td a:first-child {
+  margin-left: 5px;
+}

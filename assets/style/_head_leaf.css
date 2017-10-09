@@ -1,0 +1,156 @@
+/***************************/
+.clear_fix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+body {
+  font-family: IRANSans_medium;
+  background-color: #F5F5F5;
+}
+
+pre {
+  font-family: IRANSans_medium;
+  background-color: transparent;
+  overflow: visible;
+}
+
+label {
+  display: block;
+  color: #757575;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+i.forced {
+  padding: 0 5px;
+  color: #d50000;
+  font-style: normal;
+}
+
+input[type=submit], input[type=reset] {
+  cursor: pointer;
+  min-width: 7em;
+  padding: 3px 0;
+  color: #616161;
+  font-weight: bold;
+  border: 1px solid #616161;
+  font-size: 12px;
+}
+
+input[type=text], input[type=password] {
+  margin-bottom: 1em;
+  border: 1px solid #757575;
+  padding: 7px;
+  min-width: 15em;
+  font-size: 12px;
+  font-weight: bold;
+  color: #757575;
+}
+
+#insert_head_leaf {
+  border: 1px solid #e0e0e0;
+  max-width: 25em;
+  overflow: hidden;
+}
+
+#insert_head_leaf form {
+  padding: 10px;
+}
+
+#insert_head_leaf h5 {
+  display: block;
+  padding: 10px 2px;
+  color: #fafafa;
+  background-color: #616161;
+}
+
+#insert_head_leaf i.fa-asterisk {
+  font-size: 7px;
+  padding: 0 0 0 4px;
+  color: #f44336;
+}
+
+form input[type=text]:nth-child(4) {
+  margin-bottom: 20px;
+}
+
+h4.head_leaf_header {
+  display: block;
+  background-color: #616161;
+  color: #fafafa;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+hr {
+  border-color: #e0e0e0;
+}
+
+div.content table {
+  text-align: center;
+  width: 100%;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+div.content table tr {
+  text-align: center;
+}
+
+div.content table tr:nth-child(even) {
+  background-color: #e0e0e0;
+  color: #616161;
+}
+
+div.content table tr th {
+  text-align: center;
+  padding: 1em 0;
+  font-weight: bold;
+}
+
+div.content table tr th:nth-child(1) {
+  width: 4em;
+}
+
+div.content table tr th:nth-child(2) {
+  width: 10em;
+}
+
+div.content table tr th:nth-child(4) {
+  width: 10em;
+}
+
+div.content table tr th:nth-child(5) {
+  width: 8em;
+}
+
+div.content table tr td {
+  text-align: center;
+  padding: 1em 0;
+}
+
+div.content table tr td a {
+  color: #424242;
+  text-decoration: none;
+  display: block;
+  padding: 7px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+div.content table tr td a:hover {
+  background-color: #bdbdbd;
+  text-decoration: none;
+}
+
+div.content table tr td a:first-child {
+  margin-left: 5px;
+}

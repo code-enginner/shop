@@ -1,0 +1,55 @@
+/******************************/
+body {
+  font-family: IRANSans_medium;
+  background-color: #F5F5F5;
+}
+
+#header {
+  text-align: center;
+  display: block;
+  padding: 15px;
+  background-color: #01579b;
+  color: #fafafa;
+}
+
+.cat_update_form_wrapper {
+  text-align: center;
+  margin-top: 5em;
+}
+
+.cat_update_form_wrapper .content {
+  width: 30em;
+  padding: 25px;
+  margin: 0 auto;
+  text-align: right;
+  border: 1px solid #bdbdbd;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.6);
+  -ms-box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.6);
+}
+
+.cat_update_form_wrapper .content label {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.cat_update_form_wrapper .content input[type=text] {
+  display: block;
+  padding: 5px;
+  margin-bottom: 12px;
+  min-width: 20em;
+}
+
+.cat_update_form_wrapper .content input[type=submit], .cat_update_form_wrapper .content input[type=reset], .cat_update_form_wrapper .content button {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  min-width: 7em;
+}
+
+.cat_update_form_wrapper .content button {
+  margin-top: 4px;
+}

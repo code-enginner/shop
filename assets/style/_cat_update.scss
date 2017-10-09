@@ -1,0 +1,72 @@
+@mixin box_shadow($bottom:5px, $right: 5px, $scattering: 13px, $color:rgba(0, 0, 0, 0.6))
+{
+    -webkit-box-shadow: $bottom $right $scattering $color;
+    -moz-box-shadow: $bottom $right $scattering $color;
+    -ms-box-shadow: $bottom $right $scattering $color;
+    -o-box-shadow: $bottom $right $scattering $color;
+    box-shadow: $bottom $right $scattering $color;
+}
+@mixin timer($mode:all, $duration:0.3s)
+{
+    -webkit-transition: $mode $duration;
+    -moz-transition: $mode $duration;
+    -ms-transition: $mode $duration;
+    -o-transition: $mode $duration;
+    transition: $mode $duration;
+}
+/******************************/
+body
+{
+    //font-family: "IranianSans";
+    //font-family: IRANSans_bold;
+    font-family: IRANSans_medium;
+    background-color: #F5F5F5;
+}
+#header
+{
+    text-align: center;
+    display: block;
+    padding: 15px;
+    background-color: #01579b;
+    color: #fafafa;
+}
+.cat_update_form_wrapper
+{
+    text-align: center;
+    margin-top: 5em;
+    .content
+    {
+        width: 30em;
+        padding: 25px;
+        margin: 0 auto;
+        text-align: right;
+        border: 1px solid #bdbdbd;
+        background-color: #fff;
+        @include box_shadow();
+
+        label
+        {
+            display: block;
+            margin-bottom: 3px;
+        }
+        input[type=text]
+        {
+            display: block;
+            padding: 5px;
+            margin-bottom: 12px;
+            min-width: 20em;
+        }
+        input[type=submit], input[type=reset], button
+        {
+            font-size: 12px;
+            font-weight: bold;
+            padding: 5px;
+            min-width: 7em;
+        }
+
+        button
+        {
+            margin-top: 4px;
+        }
+    }
+}

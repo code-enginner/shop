@@ -1,0 +1,107 @@
+{
+    "serverError":
+            [
+                {"msg0": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>عذر خواهی می کنیم. ارتباط با پایگاه داده قطع شده است.</h5></div>"},
+                {"msg1": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>عذر خواهی میکنیم. عملکرد پایگاه داده دچار اشکال شده است.</h5></div>"},
+                {"msg2": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>هیچ مدیری با این مشخصات یافت نشد!</h5></div>"},
+                {"msg3": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i<i class='break_line'></i>>سرور قادر به پردازش درخواست شما نیست. لطفا نام تابع پردازش کننده را بررسی کنید.</h5></div>"},
+                {"msg4": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>باید یک آرایه از داده ها به سرور ارسال شوند.</h5></div>"},
+                {"msg5": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>فیلدهای ضروری زیر خالی میباشند:</h5></div>"},
+                {"msg6": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>تصویر محصول در ج نشده است. لطفا برای محصول یک تصویر مناسب قرار دهید.</h5></div>"},
+                {"msg7": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>این فایل مجاز نمی باشد.فقط فرمتهای jpeg - jpg - png و gif مجاز هستند.</h5></div>"},
+                {"msg8": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>حداکثر سایز فایل باید 2 مگابایت باشد.</h5></div>"},
+                {"msg9": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>عذر خواهی می کنیم.یک خطای داخلی رخ داده است. لطفا دوباره تلاش کنید.</h5></div>"},
+                {"msg10": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>متاسفانه فایل مورد نظر شما در سیستم ذخیره نشد. لطفا دوباره تلاش کنید.</h5></div>"},
+                {"msg11": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>متاسفانه فایل شما از طریق http آپلود نشد.</h5></div>"},
+                {"msg12": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>در نام گذاری عکس محصول نمی توانید از کاراکتر نقطه (.) استفاده کنید.</h5></div>"},
+                {"msg13": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>متاسفانه محصول جدید در پایگاه داده ذخیره نشد.</h5></div>"},
+                {"msg14": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>مشکلی در به روز رسانی محصول اتفاق افتاد.</h5></div>"},
+                {"msg15": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>متاسفانه در ثبت نام شما خطایی رخداده است.</h5></div>"},
+                {"msg16": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>قبل از شما کاربر دیگری با این ایمیل در سایت ثبت نام کرده است. لطفا ایمیل خود را تغییر دهید.</h5></div>"},
+                {"msg17": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>کاربر گرامی لطفا از دست کاری فرم های سایت خودداری کنید.</h5></div>"},
+                {"msg18": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>رمزهای عبور یکسان نیستند.</h5></div>"},
+                {"msg19": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>کد امنیتی صحیح نیست.</h5></div>"},
+                {"msg20": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>هیچ کاربری با این مشخصات در سیستم وجود ندارد.لطفا ثبت نام کنید.</h5></div>"},
+                {"msg21": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>کد شناسایی نامعتبر است.</h5></div>"},
+                {"msg22": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>مهلت زمانی کد شناسایی، به اتمام رسیده است. لطفا دوباره، درخواست یک کد شناسایی دهید.</h5></div>"},
+                {"msg23": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>هیچ نظری برای این محصول وجود ندارد.</h5></div>"},
+                {"msg24": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>سبد خرید شما خالی است</h5></div>"},
+                {"msg25": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>خطا در حذف سفارش</h5></div>"},
+                {"msg26": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>خطایی رخ داده.</h5></div>"},
+                {"msg27": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>هیچ کاربری با این مشخصات یافت نشد!</h5></div>"},
+                {"msg28": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>متاسفانه هیچ کالایی یافت نشد.</h5></div>"},
+                {"msg29": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>لطفا ایمیل خود را وارد کنید.</h5></div>"},
+                {"msg30": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>این ایمیل قبلا در سیستم ثبت شده است.</h5></div>"},
+                {"msg31": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>نام کاربری یا ایمیل قبلا در سیستم موجود است.</h5></div>"},
+                {"msg32": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>خطا در انجام عملیات مورد نظر دخ داده.</h5></div>"},
+                {"msg33": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>فیلد رمز عبور خالی است. </h5></div>"},
+                {"msg34": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>هیچ خریدی ثبت نشده</h5></div>"},
+                {"msg35": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg36": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg37": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg38": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg39": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg40": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"}
+            ],
+
+
+    "userError":
+            [
+                {"msg0": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>نام کاربری خالی است!</h5></div>"},
+                {"msg1": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>رمز عبور خالی است!</h5></div>"},
+                {"msg2": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>تصویر امنیتی خالی است!</h5></div>"},
+                {"msg3": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>نام دسته نباید خالی باشد.</h5></div>"},
+                {"msg4": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>فیلد نام جدید دسته نباید خالی باشد.</h5></div>"},
+                {"msg5": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg6": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg7": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg8": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg9": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg10": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg11": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg12": "<div class='alert alert-danger warning'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"}
+            ],
+
+
+    "serverSuccess":
+            [
+                {"msg0": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>دسترسی مجاز است.</h5></div>"},
+                {"msg1": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>دسته جدید با موفقیت ثبت شد.</h5></div>"},
+                {"msg2": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>دسته مورد نظر با موفقیت حذف شد.</h5></div>"},
+                {"msg3": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>دسته مورد نظر با موفقیت بروز شد.</h5></div>"},
+                {"msg4": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>محصول جدید با موفقیت اضافه شد</h5></div>"},
+                {"msg5": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>محصول جدید با موفقیت اضافه شد.</h5></div>"},
+                {"msg6": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>محصول مورد نظر با موفقیت به روز شد.</h5></div>"},
+                {"msg7": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>ثبت نام با موفقیت انجام شد. اکنون می توانید از <a href='' id='' class=''>اینجا</a> وارد حساب خود شوید.</h5></div>"},
+                {"msg8": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>رمز عبور جدید شما، با موفقیت ثبت شد.اکنون می توانید وارد حساب خود شوید. </h5></div>"},
+                {"msg9": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>نظر شما با موفقیت ثبت شد پس از تایید مدیر نمایش داده می شود.</h5></div>"},
+                {"msg10": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5>این سفارش با موفقیت حذف شد.</div>"},
+                {"msg11": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>عملیات موفقیت آمیز بود.</h5></div>"},
+                {"msg12": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>خبر جدید با موفقبت اضافه شد.</h5></div>"},
+                {"msg13": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>حذف خبر با موفقیت انجام شد.</h5></div>"},
+                {"msg14": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>این خبر با موفقیت به روز شد.</h5></div>"},
+                {"msg15": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>شما با موفقیت عضو شدید.</h5></div>"},
+                {"msg16": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i>مدیر جدید با موفقیت اضافه شد.</h5></div>"},
+                {"msg17": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg18": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg19": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg20": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg21": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg22": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg23": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg24": "<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"}
+            ],
+
+
+    "UISuccess":
+            [
+                {"msg0":"<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg1":"<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg2":"<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg3":"<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg4":"<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg5":"<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg6":"<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"},
+                {"msg7":"<div class='alert alert-success success'><h5><i class='fa fa-window-close'></i><i class='break_line'></i></h5></div>"}
+            ]
+}

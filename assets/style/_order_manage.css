@@ -1,0 +1,155 @@
+/****************************/
+.clear_fix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.unSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.hint_2 {
+  font-family: IRANSans_medium;
+  font-size: 11px;
+  color: #c2185b;
+}
+
+.fa-asterisk {
+  padding: 0 5px;
+  color: #d50000;
+  font-style: normal;
+  font-size: 7px;
+}
+
+body {
+  font-family: IRANSans_regular;
+  overflow-x: hidden;
+  font-weight: normal;
+  font-size: 13px;
+  color: #696763;
+}
+
+i {
+  font-style: normal;
+}
+
+label {
+  font-family: IRANSans_medium;
+  font-weight: normal;
+  display: block;
+  margin-bottom: 7px;
+}
+
+table {
+  font-family: IRANSans_medium;
+  text-align: center;
+  width: 100%;
+  font-size: 13px;
+}
+
+table tr {
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #e0e0e0;
+  color: #616161;
+}
+
+table tr th {
+  text-align: center;
+  padding: 1em 0;
+}
+
+table tr th:nth-child(1) {
+  width: 1em;
+}
+
+table tr th:nth-child(2) {
+  width: 2em;
+}
+
+table tr th:nth-child(3) {
+  width: 2em;
+}
+
+table tr th:nth-child(4) {
+  width: 3em;
+}
+
+table tr th:nth-child(5) {
+  width: 1em;
+}
+
+table tr th:nth-child(6) {
+  width: 1em;
+}
+
+table tr th:nth-child(7) {
+  width: 7em;
+}
+
+table tr td {
+  text-align: center;
+  padding: 1em 0;
+  font-size: 11px;
+}
+
+table tr td a {
+  color: #424242;
+  text-decoration: none;
+  display: block;
+  padding: 7px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+table tr td a:hover {
+  text-decoration: none;
+}
+
+table tr td a:first-child {
+  margin-left: 5px;
+}
+
+.operation {
+  display: inline-block;
+  font-family: IRANSans_medium;
+  font-size: 12px;
+  padding: 5px;
+  margin: 3px;
+  width: 80%;
+  cursor: pointer;
+}
+
+.operation:not(:last-child) {
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+}
+
+.delivery {
+  color: #8bc34a;
+}
+
+.suspension {
+  color: #3f51b5;
+}
+
+.deleteOrder {
+  color: #d81b60;
+  background-color: #fce4ec;
+}
+
+.print {
+  color: #757575;
+  font-size: 20px;
+}
