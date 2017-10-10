@@ -5,11 +5,11 @@
 لیست ایمیل و رمز کاربران سایت برای ورود:
 ایمیل                                  رمز عبور
 
-  666                                    neda@info.com
-  333333                                 sara@info.com
-  4545                                   saman@info.com
-  9999                                   nafiseh@info.com
-  6666                                   mehran@info.com
+  666                                    neda@info.com _ 
+  333333                                 sara@info.com _ 
+  4545                                   saman@info.com _ 
+  9999                                   nafiseh@info.com _ 
+  6666                                   mehran@info.com _ 
   
  و همین طور مشخصات مدیر برای ورود به پنل:
  admin و admin
