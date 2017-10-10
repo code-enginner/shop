@@ -5,13 +5,22 @@
 لیست ایمیل و رمز کاربران سایت برای ورود:
 ایمیل                                  رمز عبور
 
-  666                                    neda@info.com _ 
-  333333                                 sara@info.com _ 
-  4545                                   saman@info.com _ 
-  9999                                   nafiseh@info.com _ 
-  6666                                   mehran@info.com _ 
+  666 و                                   neda@info.com _
+  
+  333333 و                                sara@info.com _ 
+  
+  4545 و                                  saman@info.com _ 
+  
+  9999 و                                  nafiseh@info.com _ 
+  
+  6666 و                                  mehran@info.com _ 
   
  و همین طور مشخصات مدیر برای ورود به پنل:
+ 
+ آدرس ورود به پنل مدیریت:  http://safecode.gigfa.com/shop/admin/login.php
+ 
+ نام کاربری و رمز عبور :
+ 
  admin و admin
 
 
